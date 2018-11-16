@@ -5,8 +5,8 @@ for num in range(1, 101):
         if num % 3 == 0:
             print("FooBar")
         else:
-            print("Foo")
+            print("Bar")
     elif num % 3 == 0:
-        print("Bar")
+        print("Foo")
     else:
         print(num)
